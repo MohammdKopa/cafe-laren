@@ -1,14 +1,6 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { getSession, loginAsOwner } from "@/lib/auth";
-
-async function loginAction(formData: FormData) {
-  "use server";
-  const password = String(formData.get("password") ?? "");
-  const ok = await loginAsOwner(password);
-  if (ok) redirect("/admin");
-  redirect("/admin/login?error=1");
-}
+import { getSession } from "@/lib/auth";
 
 export default async function AdminLogin({
   searchParams,
@@ -34,7 +26,8 @@ export default async function AdminLogin({
         </Link>
 
         <form
-          action={loginAction}
+          action="/admin/login/submit"
+          method="POST"
           className="rounded-2xl bg-paper-50 ring-1 ring-espresso-700/10 shadow-[var(--shadow-paper)] p-7 md:p-9"
         >
           <p className="font-body text-[10px] uppercase tracking-[0.42em] text-espresso-600/80 flex items-center gap-3">
