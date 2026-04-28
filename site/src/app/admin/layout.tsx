@@ -65,12 +65,16 @@ function AdminTopNav() {
           >
             Vorschau <span aria-hidden>↗</span>
           </Link>
-          <Link
-            href="/admin/logout"
-            className="inline-flex items-center px-3 py-2 text-espresso-600/75 hover:text-espresso-900 transition rounded-[2px]"
-          >
-            Abmelden
-          </Link>
+          {/* POST form so Next.js Link prefetching can't accidentally
+              log the user out by GETting the logout route. */}
+          <form action="/admin/logout" method="POST" className="inline-flex">
+            <button
+              type="submit"
+              className="inline-flex items-center px-3 py-2 text-[10px] sm:text-[11px] uppercase tracking-[0.28em] sm:tracking-[0.32em] text-espresso-600/75 hover:text-espresso-900 transition rounded-[2px]"
+            >
+              Abmelden
+            </button>
+          </form>
         </nav>
       </div>
     </header>

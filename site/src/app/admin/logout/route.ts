@@ -1,9 +1,22 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { logout } from "@/lib/auth";
 
-export async function GET() {
+/**
+ * POST-only — GET would let Next.js Link prefetching silently log
+ * the user out (prefetch-on-hover would run the handler).
+ */
+export async function POST(request: NextRequest) {
   await logout();
-  return NextResponse.redirect(
-    new URL("/admin/login", process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
-  );
+  console.log("[auth-route] logout: cookie cleared");
+  return NextResponse.redirect(new URL("/admin/login", request.url), {
+    status: 303,
+  });
+}
+
+// Catch accidental GETs (or prefetches) — just bounce to login without
+// touching the session cookie.
+export async function GET(request: NextRequest) {
+  return NextResponse.redirect(new URL("/admin/login", request.url), {
+    status: 303,
+  });
 }
