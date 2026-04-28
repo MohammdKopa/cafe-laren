@@ -60,7 +60,12 @@ export async function getSession(): Promise<SessionPayload | null> {
   const store = await cookies();
   const cookie = store.get(COOKIE_NAME);
   if (!cookie?.value) {
-    console.log("[auth] getSession: no cookie");
+    // Dump every cookie name we DID receive so we can see if the
+    // browser is sending OTHER cookies (rules out total cookie blocking).
+    const allCookieNames = store.getAll().map((c) => c.name);
+    console.log(
+      `[auth] getSession: no '${COOKIE_NAME}' cookie. Got ${allCookieNames.length} other cookie(s): [${allCookieNames.join(", ")}]`,
+    );
     return null;
   }
   const session = decodeSession(cookie.value);
