@@ -28,18 +28,30 @@ function encodeSession(payload: SessionPayload): string {
 
 function decodeSession(token: string): SessionPayload | null {
   const [body, sig] = token.split(".");
-  if (!body || !sig) return null;
+  if (!body || !sig) {
+    console.log("[auth] decode: malformed token");
+    return null;
+  }
   const expected = sign(body);
   const a = Buffer.from(sig);
   const b = Buffer.from(expected);
-  if (a.length !== b.length || !timingSafeEqual(a, b)) return null;
+  if (a.length !== b.length || !timingSafeEqual(a, b)) {
+    console.log(
+      `[auth] decode: signature mismatch (got ${a.length}b vs expected ${b.length}b)`,
+    );
+    return null;
+  }
   try {
     const payload = JSON.parse(
       Buffer.from(body, "base64url").toString("utf8"),
     ) as SessionPayload;
-    if (payload.exp < Math.floor(Date.now() / 1000)) return null;
+    if (payload.exp < Math.floor(Date.now() / 1000)) {
+      console.log("[auth] decode: expired");
+      return null;
+    }
     return payload;
-  } catch {
+  } catch (err) {
+    console.log("[auth] decode: parse error", err);
     return null;
   }
 }
@@ -47,8 +59,15 @@ function decodeSession(token: string): SessionPayload | null {
 export async function getSession(): Promise<SessionPayload | null> {
   const store = await cookies();
   const cookie = store.get(COOKIE_NAME);
-  if (!cookie?.value) return null;
-  return decodeSession(cookie.value);
+  if (!cookie?.value) {
+    console.log("[auth] getSession: no cookie");
+    return null;
+  }
+  const session = decodeSession(cookie.value);
+  console.log(
+    `[auth] getSession: ${session ? "VALID" : "INVALID"} (cookie len=${cookie.value.length}, secret len=${process.env.SESSION_SECRET?.length})`,
+  );
+  return session;
 }
 
 export async function requireOwner() {
