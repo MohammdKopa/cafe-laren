@@ -6,10 +6,9 @@
 
 Showcase site with owner admin (menu + Aktionen CRUD), built as a portfolio piece.
 
-[**Live demo**](https://cafe-laren.vercel.app) · [**Customer**](https://www.instagram.com/cafelaren/)
+[**Live site →**](https://cafe-laren.vercel.app) · [**Customer**](https://www.instagram.com/cafelaren/) · [**Admin**](https://cafe-laren.vercel.app/admin)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MohammdKopa/cafe-laren&root-directory=site&env=DATABASE_URL,DIRECT_URL,ADMIN_PASSWORD,SESSION_SECRET,NEXT_PUBLIC_SITE_URL&envDescription=Supabase+connection+strings,+admin+password,+and+session+secret.+See+the+README+for+how+to+generate+each.&envLink=https://github.com/MohammdKopa/cafe-laren%23environment-variables&project-name=cafe-laren&repository-name=cafe-laren)
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/MohammdKopa/cafe-laren)
 
 </div>
 
