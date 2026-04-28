@@ -1,0 +1,326 @@
+[
+  {
+    "category": "Eissorten",
+    "subtitle": "Sorten · Wählen Sie Ihre Lieblingssorten",
+    "items": [
+      { "name": "Vanille",        "kind": "Milcheis",  "flavorIndex": 1 },
+      { "name": "Schokolade",     "kind": "Milcheis",  "flavorIndex": 2 },
+      { "name": "Nuss",           "kind": "Milcheis",  "flavorIndex": 3 },
+      { "name": "Stracciatella",  "kind": "Milcheis",  "flavorIndex": 4,  "allergens": ["Kokosfettglasur"] },
+      { "name": "Joghurt",        "kind": "Milcheis",  "flavorIndex": 5 },
+      { "name": "Pistazie",       "kind": "Milcheis",  "flavorIndex": 6 },
+      { "name": "Amarenakirsch",  "kind": "Milcheis",  "flavorIndex": 7,  "allergens": ["Farbstoff"] },
+      { "name": "Malaga",         "kind": "Milcheis",  "flavorIndex": 8 },
+      { "name": "Kaffee",         "kind": "Milcheis",  "flavorIndex": 9 },
+      { "name": "Tiramisu",       "kind": "Milcheis",  "flavorIndex": 10 },
+      { "name": "Alpenkaramell",  "kind": "Milcheis",  "flavorIndex": 11 },
+      { "name": "After Eight",    "kind": "Milcheis",  "flavorIndex": 12 },
+      { "name": "Banane",         "kind": "Fruchteis", "flavorIndex": 13 },
+      { "name": "Erdbeer",        "kind": "Fruchteis", "flavorIndex": 14 },
+      { "name": "Zitrone",        "kind": "Fruchteis", "flavorIndex": 15 },
+      { "name": "Heidelbeer",     "kind": "Fruchteis", "flavorIndex": 16 },
+      { "name": "Ananas",         "kind": "Fruchteis", "flavorIndex": 17 },
+      { "name": "Waldbeeren",     "kind": "Fruchteis", "flavorIndex": 18 },
+      { "name": "Melone",         "kind": "Fruchteis", "flavorIndex": 19 },
+      { "name": "Himbeere",       "kind": "Fruchteis", "flavorIndex": 20 }
+    ]
+  },
+  {
+    "category": "Eis Portionen",
+    "items": [
+      { "name": "Kinder Portion",  "description": "2 Kugeln",  "price_eur": 3.00 },
+      { "name": "Kleine Portion",  "description": "3 Kugeln",  "price_eur": 4.50 },
+      { "name": "Mittlere Portion","description": "4 Kugeln",  "price_eur": 6.00 },
+      { "name": "Große Portion",   "description": "6 Kugeln",  "price_eur": 9.00 },
+      { "name": "Riesen Portion",  "description": "10 Kugeln", "price_eur": 15.00 },
+      { "name": "Portion Sahne",   "price_eur": 1.50 },
+      { "name": "Portion Sauce",   "price_eur": 1.50 },
+      { "name": "Portion Likör",   "price_eur": 1.50 }
+    ]
+  },
+  {
+    "category": "Klassische Eisbecher",
+    "items": [
+      { "name": "Hausbecher",                   "description": "Überraschung des Hauses", "price_eur": 13.00 },
+      { "name": "Exoticabecher",                "description": "Gem. Eis, tropische Früchte, Soße, Sahne", "price_eur": 13.00 },
+      { "name": "Coppa Italia",                 "description": "Gem. Eis, frische Früchte, Soße, Sahne", "price_eur": 11.00 },
+      { "name": "Coppa Millenium",              "description": "Gem. Eis, frischer Obstsalat, Sahne und Likör (für 2 Personen)", "price_eur": 23.00 },
+      { "name": "Fruchtbecher",                 "description": "Gem. Eis, Fruchtsalat, Sahne und Amarenasirup", "price_eur": 11.00 },
+      { "name": "Joghurtbecher",                "description": "Joghurteis, Joghurt, gemischte frische Früchte und Sahne", "price_eur": 11.00 },
+      { "name": "Ananasbecher",                 "description": "Vanilleeis, Ananaseis, Sahne, Ananas, Amarenasoße", "price_eur": 10.50 },
+      { "name": "Coppa Melone",                 "description": "Gem. Eis, frische Melone, Sahne und Soße", "price_eur": 10.50 },
+      { "name": "Coppa Mango",                  "description": "Gem. Eis, frische Mango, Sahne und Soße", "price_eur": 10.50 },
+      { "name": "Coppa Anguria",                "description": "Gem. Eis, Wassermelone, Sahne und Soße", "price_eur": 10.50 },
+      { "name": "Kiwibecher",                   "description": "Gem. Eis, Sahne, Kiwi, Kiwisoße", "price_eur": 10.00 },
+      { "name": "Erdbeerbecher",                "description": "Vanille- und Erdbeereis, frische Erdbeeren, Sahne und Erdbeersauce", "price_eur": 10.00 },
+      { "name": "Erdbeeren mit Sahne",          "price_eur": 9.50 },
+      { "name": "Obstschale mit Vanilleeis",    "description": "Frischer Fruchtsalat mit einer Kugel Vanilleeis", "price_eur": 9.50 }
+    ]
+  },
+  {
+    "category": "Eisbecher mit Likör & Spezial",
+    "items": [
+      { "name": "Tartufo Becher",      "description": "Milcheis, Likör, Schokosoße, Sahne", "price_eur": 10.00 },
+      { "name": "Weiße Tartufo",       "description": "Vanille- und Nusseis, Schokostreusel, Baileys und Sahne", "price_eur": 10.00 },
+      { "name": "Schoko Whiskybecher", "description": "Milcheis, Mandelsplitter, Sahne und Curacaolikör", "price_eur": 10.00 },
+      { "name": "Eichhörnchenbecher",  "description": "Milcheis, Likör, verschiedene Nüsse und Sahne", "price_eur": 10.50 },
+      { "name": "Spezial Bananensplit","description": "Gem. Eis, Schokoladensoße, Streusel und Sahne", "price_eur": 10.50 },
+      { "name": "Haselnussbecher",     "description": "Gem. Eis, Haselnüsse, Sahne, Nusssoße", "price_eur": 10.50 },
+      { "name": "Walnussbecher",       "description": "Gem. Eis, Walnusskerne, Sahne, Soße", "price_eur": 10.50 },
+      { "name": "Amarettobecher",      "description": "Gem. Eis, Amaretto, Sahne, Amarettolikör", "price_eur": 10.50 },
+      { "name": "Heidelbeerbecher",    "description": "Gem. Eis, Heidelbeeren, Sahne und Heidelbeersauce", "price_eur": 10.50 },
+      { "name": "Himbeerbecher",       "description": "Gem. Eis, Himbeerfrüchte, Sahne und Sauce", "price_eur": 10.50 },
+      { "name": "Waldbecher",          "description": "Gem. Eis, Waldfrüchte, Sahne und Waldfruchtsoße", "price_eur": 10.50 },
+      { "name": "Malagabecher",        "description": "Malagaeis, Vanilleeis, Rosinen, Marsalalikör, Sahne", "price_eur": 10.50 },
+      { "name": "Eierlikörbecher",     "description": "Milcheis, Eierlikör, Sahne und Schokoladenstreusel", "price_eur": 10.50 },
+      { "name": "Pralinenbecher",      "description": "Milcheis, Pralinen, Eierlikör, Schokoladensoße, Amarenasoße, Sahne", "price_eur": 10.50 },
+      { "name": "Schwarzwald Becher",  "description": "Gem. Eis, Kirschen Likör, Sahne und Schokostreusel", "price_eur": 10.00 },
+      { "name": "Tiramisubecher",      "description": "Tiramisueis, Vanilleeis, Sahne, Savoiardi, Tiramisulikör", "price_eur": 9.80 },
+      { "name": "Cognacbecher",        "description": "Milcheis, Sahne, Cognac", "price_eur": 9.80 },
+      { "name": "Marsalabecher",       "description": "Milcheis, Sahne, Marsalalikör", "price_eur": 9.80 },
+      { "name": "After Eight Becher",  "description": "Milcheis, Sahne, After-Eight, Likör und Schokostreusel", "price_eur": 9.80 },
+      { "name": "Amarenabecher",       "description": "Gem. Eis, Amarenakirschen, Sahne und Amarenasauce", "price_eur": 9.80 },
+      { "name": "Karamellbecher",      "description": "Milcheis, Karamellsoße, Sahne", "price_eur": 9.50 },
+      { "name": "Baileysbecher",       "description": "Milcheis, Baileyslikör, Sahne", "price_eur": 9.50 },
+      { "name": "Stracciatellabecher", "description": "Stracciatellaeis, Schokoglasur, Schokosoße, Sahne", "price_eur": 9.50, "allergens": ["Kokosfettglasur"] },
+      { "name": "Cabanabecher",        "description": "Gem. Eis, Bananenscheiben, Eierlikör, Schokosauce", "price_eur": 9.50 },
+      { "name": "Bananensplit",        "description": "Gem. Eis, Banane, Sahne, Amarenasirup und Kirschen", "price_eur": 9.50 },
+      { "name": "Schokobecher",        "description": "Milcheis, Sahne und Schokoladensauce", "price_eur": 9.50 },
+      { "name": "Mokkabecher",         "description": "Milcheis, Mokkasauce, Sahne und Schokoladenstreusel", "price_eur": 9.50 },
+      { "name": "Affogatobecher",      "description": "Milcheis mit Espresso-Kaffee, Mokkasauce und Sahne garniert", "price_eur": 9.50 },
+      { "name": "Krokantbecher",       "description": "Milcheis, Mandelsplitter, Sahne und Curacalikör", "price_eur": 9.50, "allergens": ["Farbstoff"] }
+    ]
+  },
+  {
+    "category": "Joghurt Spezialitäten",
+    "subtitle": "Joghurteis & Joghurt mit frischen Früchten",
+    "items": [
+      { "name": "Joghurt mit Erdbeeren",      "description": "Joghurteis, Joghurt, Sahne, frische Erdbeeren und Sauce", "price_eur": 10.00 },
+      { "name": "Joghurt mit Kiwi und Ananas","description": "Joghurteis, Joghurt, Kiwi, Ananas, Sahne und Sauce", "price_eur": 10.00 },
+      { "name": "Joghurt mit Bananen",        "description": "Joghurteis, Joghurt, Banane, Sahne und Sauce", "price_eur": 10.00 },
+      { "name": "Joghurt mit Himbeeren",      "description": "Joghurteis, Joghurt, Himbeeren, Sahne und Sauce", "price_eur": 10.00 },
+      { "name": "Joghurt mit Amarenakirschen","description": "Joghurteis, Joghurt, Amarenakirschen, Sahne", "price_eur": 10.00 },
+      { "name": "Joghurt mit Waldfrucht",     "description": "Joghurteis, Joghurt, Waldfrüchte, Sahne und Sauce", "price_eur": 10.00 },
+      { "name": "Joghurt mit Sauerkirschen",  "description": "Joghurteis, Joghurt, Schattenmorellen, Sahne und Sauce", "price_eur": 10.00 }
+    ]
+  },
+  {
+    "category": "Eis-Spaghetti & Sondereis",
+    "items": [
+      { "name": "Spaghetti Eis",      "description": "Vanilleeis, Sahne, Erdbeersauce und weiße Schokostreusel", "price_eur": 8.50 },
+      { "name": "Riesen Spaghetti",   "price_eur": 9.50 },
+      { "name": "Spezial Spaghetti",  "description": "Vanilleeis, Sahne, Fruchtsalat und Curacao Likör", "price_eur": 10.50, "allergens": ["Farbstoff"] },
+      { "name": "Carbonara",          "description": "Vanille- und Nusseis, Schokosoße, Eierlikör, Krokantstreusel", "price_eur": 10.50 },
+      { "name": "Eis-Lasagne",        "description": "Vanilleeis, Sahne, Erdbeersauce, Waldfrüchte und weiße Schokoladenstreusel", "price_eur": 10.50 },
+      { "name": "Pizzaeis",           "description": "Gem. Eis, Erdbeersauce und Fruchtsalat", "price_eur": 10.50 }
+    ]
+  },
+  {
+    "category": "Für unsere Kleinen",
+    "subtitle": "Eisbecher für Kinder",
+    "items": [
+      { "name": "Pinocchio",            "price_eur": 5.50 },
+      { "name": "Schneemann",           "price_eur": 5.50 },
+      { "name": "Kinder Erdbeerbecher", "price_eur": 5.50 },
+      { "name": "Kinder Spaghetti",     "price_eur": 5.50 },
+      { "name": "Kinder Fruchtbecher",  "price_eur": 5.50 },
+      { "name": "Mickey Mouse",         "price_eur": 5.50 },
+      { "name": "Smartiesbecher",       "price_eur": 5.50 },
+      { "name": "Biene Maja",           "price_eur": 5.50 },
+      { "name": "Piccoli Amici",        "description": "für zwei Kinder", "price_eur": 11.00 }
+    ]
+  },
+  {
+    "category": "Eisgetränke & Eis-Kaffee",
+    "items": [
+      { "name": "Eis-Kaffee",         "price_eur": 6.50 },
+      { "name": "Großer Eis-Kaffee",  "price_eur": 7.50 },
+      { "name": "Eis Schokolade",     "price_eur": 6.50 },
+      { "name": "Große Eis Schokolade","price_eur": 7.50 },
+      { "name": "Sektbecher",         "description": "Zitroneneis mit Sekt", "price_eur": 6.50 },
+      { "name": "Arlecchino",         "description": "Vanilleeis, Orangeneis, Früchte, Sahne, Amarenasaft", "price_eur": 7.50 },
+      { "name": "Kalifornia",         "description": "Vanilleeis, Orangensaft, Roter Curacao, Sahne, dekoriert mit Früchten", "price_eur": 7.50, "allergens": ["Farbstoff"] },
+      { "name": "Fragolosco",         "description": "Zitroneneis, Joghurt, Erdbeersoße und Sahne", "price_eur": 7.50 },
+      { "name": "Durstlöscher",       "description": "mit Prosecco, Zitroneneis und Früchten", "price_eur": 7.00 },
+      { "name": "Flipper",            "description": "Vanilleeis, Orangensaft, Sahne, eine Amarenakirsche, Kirschsaft", "price_eur": 6.90 }
+    ]
+  },
+  {
+    "category": "Milch Mix Getränke",
+    "subtitle": "Milkshake nach Wahl",
+    "items": [
+      { "name": "Milch Mix mit Wahl",  "description": "nach Wahl", "price_eur": 5.50 },
+      { "name": "Milch Mix mit Sahne", "price_eur": 6.50 }
+    ]
+  },
+  {
+    "category": "Waffeln",
+    "items": [
+      { "name": "Waffel mit Waldbeeren",    "description": "Mit Puderzucker, Waldbeeren, Erdbeereis mit Vanillegeschmack, Sahne und Sauce", "price_eur": 9.00, "allergens": ["Farbstoff", "Kokosfettglasur"] },
+      { "name": "Waffel mit Saisonobst",    "description": "Mit Puderzucker, frischem Obst der Saison, Eis mit Joghurtgeschmack und Naturjoghurt", "price_eur": 8.50, "allergens": ["Farbstoff", "Kokosfettglasur"] },
+      { "name": "Waffel mit Erdbeeren",     "description": "Mit Puderzucker, frischen Erdbeeren (nach Saison), Eis mit Vanillegeschmack und Sahne", "price_eur": 7.90, "allergens": ["Farbstoff", "Kokosfettglasur"] },
+      { "name": "Waffel mit Banane",        "description": "Mit Puderzucker, Bananenscheiben, Eis mit Nussgeschmack und Zimt", "price_eur": 7.90, "allergens": ["Farbstoff", "Kokosfettglasur"] }
+    ],
+    "_note": "Plain/simpler waffle variants on second waffle page have low-resolution prices — confirm with owner before publishing"
+  },
+  {
+    "category": "Frühstück",
+    "subtitle": "Komplett-Frühstücke",
+    "items": [
+      { "name": "Der Italiener — Espresso mit Croissant",  "price_eur": 5.50 },
+      { "name": "Der Italiener — Cappuccino mit Croissant","price_eur": 6.50 },
+      { "name": "Der Sportler",       "description": "Joghurt Müsli Schale mit Früchten", "price_eur": 7.90 },
+      { "name": "Für den kleinen Hunger", "description": "1× Tasse Filterkaffee oder türkischer Schwarztee, 1× Butterportion, 1× Brötchen, 2× Scheiben Gouda, Nutella / Honig / Marmelade", "price_eur": 6.90 },
+      { "name": "Frühstück Klassik",  "description": "1× Tasse Filterkaffee oder türkischer Schwarztee, 2× Brötchen, 2× Körnerbrötchen, 2× Butterportionen, 2× Scheiben Wurst nach Wahl, 1× gekochtes Ei, 2× Scheiben Gouda, Frischkäse, Nutella / Honig / Marmelade, Tomate & Gurke", "price_eur": 9.90 },
+      { "name": "Für den großen Hunger", "description": "1× Tasse Filterkaffee oder türkischer Schwarztee, 2× Brötchen, 1× Körnerbrötchen, 1× Croissant, 1× gekochtes Ei, 3× Butterportionen, 4× Scheiben Wurst nach Wahl, Frischkäse, Briekäse, Nutella / Honig / Marmelade, Tomate, Gurke und Oliven, 1× Orangensaft", "price_eur": 14.90 },
+      { "name": "Simit Frühstück",    "description": "1× Simitring, 1× gekochtes Ei, Tomate und Gurke, Oliven, Schafskäse, 1× türkischer Schwarztee", "price_eur": 7.90 }
+    ]
+  },
+  {
+    "category": "Belegte Brötchen",
+    "items": [
+      { "name": "Brötchen mit Käse belegt",      "price_eur": 2.90 },
+      { "name": "Brötchen mit Ei belegt",        "price_eur": 3.90 },
+      { "name": "Brötchen mit Wurst belegt",     "description": "Wurst nach Wahl", "price_eur": 3.90 }
+    ]
+  },
+  {
+    "category": "Toast",
+    "subtitle": "Serviert mit Oliven, Tomaten, Gurken und türkischem Schwarztee",
+    "items": [
+      { "name": "Toast mit Käse",               "price_eur": 5.50 },
+      { "name": "Toast mit Sucuk & Käse",       "price_eur": 6.90 },
+      { "name": "Toast mit Tomate Mozarella",   "price_eur": 6.90 }
+    ]
+  },
+  {
+    "category": "Extra Frühstück",
+    "subtitle": "Serviert mit einem Brötchen und türkischem Schwarztee",
+    "items": [
+      { "name": "Menemen",              "description": "Rührei mit Paprika & Tomate", "price_eur": 6.50 },
+      { "name": "Rührei",               "price_eur": 5.50 },
+      { "name": "Rührei mit Sucuk",     "price_eur": 7.90 },
+      { "name": "Rührei mit Pastirma",  "description": "türkischer Schinken", "price_eur": 7.90 },
+      { "name": "Rührei mit Kavurma",   "description": "geschmortes Frühstücksfleisch", "price_eur": 8.90 }
+    ]
+  },
+  {
+    "category": "Extras zum Frühstück",
+    "items": [
+      { "name": "Schälchen Oliven",            "price_eur": 2.50 },
+      { "name": "Brötchen",                    "price_eur": 0.80 },
+      { "name": "Butter",                      "price_eur": 0.50 },
+      { "name": "Gekochtes Ei",                "price_eur": 0.80 },
+      { "name": "Nutella / Honig / Marmelade", "price_eur": 0.50 },
+      { "name": "Körnerbrötchen",              "price_eur": 1.50 }
+    ]
+  },
+  {
+    "category": "Extra Kaffee",
+    "subtitle": "Aufpreise bei Frühstücksbestellung — Tausch des inkl. Filterkaffees",
+    "items": [
+      { "name": "Kaffee Creme",       "price_eur": 2.00 },
+      { "name": "Cappuccino",         "price_eur": 2.50 },
+      { "name": "Latte Macchiato",    "price_eur": 2.50 },
+      { "name": "Kakao",              "price_eur": 2.50 },
+      { "name": "Milchkaffee",        "price_eur": 2.50 },
+      { "name": "Türkischer Kaffee",  "price_eur": 2.50 }
+    ]
+  },
+  {
+    "category": "Warme Getränke",
+    "items": [
+      { "name": "Tasse Kaffee",                "price_eur": 2.70 },
+      { "name": "Tasse Espresso",              "price_eur": 2.50 },
+      { "name": "Doppelter Espresso",          "price_eur": 4.50 },
+      { "name": "Espresso Macchiato",          "description": "mit Milch geschäumt", "price_eur": 2.80 },
+      { "name": "Italienischer Cappuccino",    "description": "mit Milch geschäumt", "price_eur": 3.50 },
+      { "name": "Cappuccino",                  "description": "mit Sahne", "price_eur": 3.50 },
+      { "name": "Latte Macchiato",             "price_eur": 4.00 },
+      { "name": "Glas Milchkaffee",            "price_eur": 4.20 },
+      { "name": "Milchkaffee Spezial",         "description": "mit Vanilleeis und Karamellsoße", "price_eur": 5.00 },
+      { "name": "Tasse Schokolade",            "price_eur": 3.00 },
+      { "name": "Tasse Schokolade mit Sahne",  "price_eur": 3.50 },
+      { "name": "Tasse Espresso mit Vanilleeis","description": "mit Kugel Vanilleeis", "price_eur": 5.00 },
+      { "name": "Tasse Espresso Coretto",      "description": "mit Grappa", "price_eur": 3.50 },
+      { "name": "Tasse Schokolade Spezial",    "description": "mit Amaretto Likör und Sahne", "price_eur": 5.00 },
+      { "name": "Irish Coffee",                "price_eur": 6.50 },
+      { "name": "Heißer Amaretto",             "description": "mit Sahne", "price_eur": 5.00 },
+      { "name": "Tasse Kaffee Spezial",        "price_eur": 5.00 },
+      { "name": "Cappuccino Spezial 1",        "description": "mit Amaretto Likör und Sahne", "price_eur": 5.00 },
+      { "name": "Cappuccino Spezial 2",        "description": "mit Baileys und Sahne", "price_eur": 5.00 },
+      { "name": "Glas Tee",                    "description": "mit Zitrone oder Milch — Sortenauswahl im Tee-Buch", "price_eur": 3.00 }
+    ]
+  },
+  {
+    "category": "Tee-Auswahl",
+    "subtitle": "Im Preis Glas Tee enthalten — frei wählbar",
+    "items": [
+      { "name": "Darjeeling Summer Gold", "description": "Schwarzer Tee · Indien · TGFOP · Summer", "tags": ["bio"] },
+      { "name": "English Breakfast",      "description": "Schwarzer Tee · Ceylon · BOP · Sommer/Summer" },
+      { "name": "Earl Grey",              "description": "Aromatisierter Schwarztee · Indien · TGFGOP · Herbst/Autumn" },
+      { "name": "Green Dragon Lung Ching","description": "Grüner Tee · China · Frühjahr/Spring" },
+      { "name": "Moroccan Mint",          "description": "Grüner Tee · China · Frühjahr/Spring", "tags": ["bio"] },
+      { "name": "Morgentau®",             "description": "Aromatisierter Grüner Tee · China · Sommer/Summer" },
+      { "name": "Ayurveda Herbs & Ginger","description": "Kräuter · Herbal Infusion" },
+      { "name": "Bergkräuter Schweizer Art","description": "Kräuter · Herbal Infusion", "tags": ["bio"] },
+      { "name": "Fruity Camomile",        "description": "Kräuter · Herbal Infusion" },
+      { "name": "Refreshing Mint",        "description": "Aromatisierte Kräuter · Flavoured Herbal Infusion" },
+      { "name": "Rooibos Cream Orange",   "description": "Aromatisierter Früchtetee · Südafrika" },
+      { "name": "Sweet Berries",          "description": "Aromatisierter Früchtetee · Flavoured fruit infusion" }
+    ]
+  },
+  {
+    "category": "Kalte Getränke",
+    "items": [
+      { "name": "Coca Cola",       "price_eur": 2.80, "allergens": ["koffeinhaltig", "Farbstoff"] },
+      { "name": "Sprite",          "price_eur": 2.80 },
+      { "name": "Fanta",           "price_eur": 2.80, "allergens": ["Farbstoff"] },
+      { "name": "Apfelsaft",       "price_eur": 3.00 },
+      { "name": "Orangensaft",     "price_eur": 3.00 },
+      { "name": "Mineralwasser",   "price_eur": 2.80 },
+      { "name": "Apfelschorle",    "price_eur": 3.50 },
+      { "name": "Bitterlemon",     "price_eur": 3.50 }
+    ]
+  },
+  {
+    "category": "Elephant Bay Ice Tea",
+    "subtitle": "Ohne Allergene · 100 % natürlicher Geschmack",
+    "items": [
+      { "name": "Elephant Bay Lemon",       "description": "Erfrischungsgetränk mit Zitronen-Geschmack und Tee-Extrakt", "price_eur": 3.40 },
+      { "name": "Elephant Bay Pomegranate", "description": "Erfrischungsgetränk mit Granatapfel-Geschmack und Tee-Extrakt", "price_eur": 3.40 },
+      { "name": "Elephant Bay Peach",       "description": "Erfrischungsgetränk mit Pfirsich-Geschmack und Tee-Extrakt", "price_eur": 3.40 },
+      { "name": "Elephant Bay Blueberry",   "description": "Erfrischungsgetränk mit Heidelbeer-Geschmack und Tee-Extrakt", "price_eur": 3.40 },
+      { "name": "Elephant Bay Passion Fruit","description": "Erfrischungsgetränk mit Maracuja-Geschmack und Tee-Extrakt", "price_eur": 3.40 }
+    ]
+  },
+  {
+    "category": "Aperitif",
+    "items": [
+      { "name": "Glas Prosecco", "price_eur": 5.00 },
+      { "name": "Sgroppino",     "description": "Sorbet mit Zitroneneis, Prosecco und Wodka", "price_eur": 7.50 }
+    ]
+  },
+  {
+    "category": "Cocktails",
+    "items": [
+      { "name": "Mai Tai",          "description": "Rum-Aroma mit saftigen Orangen, samtigen Aprikosen und einem Hauch Mandel (enthält Mandel- und Walnussextrakt)", "price_eur": 8.40 },
+      { "name": "Tequila Sunrise",  "description": "Honigartiger Geschmack der Agave mit sonnengereiften Orangen und Aroma roter Beeren (enthält Gluten und Schalenfrüchte)", "price_eur": 8.40 },
+      { "name": "Zombie",           "description": "Tropische Aromen wie Aprikose und Maracuja, süße Ananas, spritzige Orangen und rote Sommerbeeren (enthält Mandel- und Walnussextrakt)", "price_eur": 8.40 },
+      { "name": "Sex on the Beach", "description": "Reife Maracuja, Ananas und Orange mit Cranberry-Aroma", "price_eur": 8.40 },
+      { "name": "Piña Colada",      "description": "Exotischer Ananas-Geschmack mit Kokos und feinem Rum-Aroma (enthält Haselnussextrakt, Gluten, Milch)", "price_eur": 8.40 },
+      { "name": "Swimming Pool",    "description": "Sonnengereifte Ananas mit Kokos-Sahne und frischem Orangen-Aroma (enthält Gluten, Soja, Milch)", "price_eur": 8.40 },
+      { "name": "Virgin Colada",    "description": "Reife Ananas mit cremigem Kokosaroma — alkoholfrei", "price_eur": 7.90, "tags": ["alkoholfrei"] },
+      { "name": "Sportsman",        "description": "Vollmundiger Mix aus Südfrüchten — alkoholfrei", "price_eur": 7.90, "tags": ["alkoholfrei"] },
+      { "name": "Strawberry Colada","description": "Saftige Erdbeeren, Ananas und Kokos-Aroma — alkoholfrei", "price_eur": 7.90, "tags": ["alkoholfrei"] }
+    ]
+  },
+  {
+    "category": "Alkoholische Getränke",
+    "items": [
+      { "name": "Glas Rotwein",   "description": "0,2 l", "price_eur": 7.00 },
+      { "name": "Glas Weißwein",  "description": "0,2 l", "price_eur": 7.00 },
+      { "name": "Aperol Spritz",  "description": "0,2 l", "price_eur": 7.00 }
+    ]
+  }
+]

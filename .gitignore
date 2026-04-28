@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Build output
+.next/
+out/
+build/
+dist/
+
+# Environment / secrets — never commit
+.env
+.env.local
+.env*.local
+*.env
+
+# Vercel
+.vercel/
+
+# IDE / OS
+.DS_Store
+*.swp
+*.swo
+*.tsbuildinfo
+*.log
+.idea/
+.vscode/
+
+# Owner-supplied raw assets (kept out of repo — sensitive / large)
+menu-photos/
+assets/
+
+# Project tooling that is local-only
+.kiro/
+.research/
+.agents/
+skills/
+skills-lock.json
+.mcp.json
+
+# Local planning notes (kept private)
+.planning/
+
+# Next.js generated route types
+next-env.d.ts
